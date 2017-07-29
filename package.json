@@ -8,8 +8,8 @@
     "url": "https://homes.di.unimi.it/" 
   }, 
   "engines": { 
-    "node": ">= 6.11.1", 
-    "npm": ">= 3.10.10" 
+    "node": ">= 0.6.0", 
+    "npm": ">= 1.0.0" 
   }, 
   "scripts": { 
   "start": "node PrimoWebServer.js" 
