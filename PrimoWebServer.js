@@ -11,7 +11,7 @@ function processa(req,res)
    res.end(corpo);
 }
 //Funziona anche con la porta 8080 se viene utilizzato localmente
-var port=process.env.OPENSHIFT_NODEJS_PORT;
+var port=process.env.OPENSHIFT_NODEJS_PORT || 8080;
 //Ascolta sull'indirizzo ip di open shift o su quello locale
 var address=process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
 //Crea il socket di ascolto
