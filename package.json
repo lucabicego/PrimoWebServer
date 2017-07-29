@@ -1,7 +1,7 @@
-{‘‘name": "OpenShift-Sever-NonBlocking", 
+{"name": "OpenShift-Sever-NonBlocking", 
   "version": "0.0.1", 
   "description": "OpenShift Sever NonBlocking", 
-  "keywords": ["OpenShift", "Node.js", ‘‘simple’’, ‘‘server"], 
+  "keywords": ["OpenShift", "Node.js", "simple", "server"], 
   "author": { 
     "name": "Luca Bicego", 
     "email": "luca.Bicego at unimi.it", 
